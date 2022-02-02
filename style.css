@@ -1,0 +1,39 @@
+h1 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #6b6a6a24; 
+    line-height: 0.1em;
+    margin: 4rem 0 3rem; 
+    color: #6b6a6a;
+ } 
+ 
+h1 span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+
+.card.card-shadow {
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+    background-color: #f7f5f559;
+}
+
+.card:hover, .card:focus {
+    background-color: #80808014;
+}
+
+img.card-img-top {
+    transition: 200ms transform ease-in-out;
+    border-radius: 50%;
+    padding: 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+    img.card-img-top {
+        padding: 1.2rem;
+    }
+}
+
+.card:hover > img.card-img-top {
+    transform: scale(1.025);
+}
